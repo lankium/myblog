@@ -1,0 +1,68 @@
+cache:
+  enable: true
+minify: true
+sidebar:
+  position: left
+  display: always
+favicon:
+  small: images/favicon-16x16.png
+  medium: images/favicon-32x32.png
+  apple_touch_icon: images/apple-icon-180x180.png
+social:
+  GitHub: https://github.com/lankium || fab fa-github
+  Twitter: https://twitter.com/zhengsihua_dev || fab fa-twitter
+  E-Mail: mailto:lankium@gmail.com || fa fa-envelope
+social_icons:
+  icons_only: true
+site_state: true
+language: zh-CN
+symbols_count_time:
+  separated_meta: false
+  item_text_total: true
+  item_text_post: true
+tag_icon: true
+post_navigation: left
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  archives: /archives/ || fa fa-archive
+  links: /links/ || fa fa-link
+
+footer:
+  since: 2019
+  beian:
+    enable: true
+    icp: 浙ICP备2023031828号
+
+index_with_subtitle: true
+exturl: true
+exturl_icon: true
+baidu_site_verification: codeva-KVoPqmDeib
+bing_site_verification: FDEF7F052E48D8D1B8136A8B3DF8AF9B
+
+custom_file_path:
+  style: source/_data/styles.styl
+  head: source/_data/head.njk
+  postBodyStart: source/_data/postBodyStart.njk
+  sidebar: source/_data/sidebar.njk
+
+comments:
+  active: disqus
+  style: tabs
+  storage: true
+  lazyload: false
+  nav:
+    valine:
+      order: -1
+
+disqusjs:
+  enable: true
+  shortname: blog-gd5hg0lukx
+  api: https://disqus.com/api/3.0/
+  apikey: YJgyNSl14mmANcVTF2n4j8sr3R0eBKsw8R0kcgDzprIJ2ahQ9O4d6H6KX9Bunzt4
+  count: true
+
+google_analytics:
+  tracking_id: UA-XXXXXXXX-X
+  only_pageview: false
